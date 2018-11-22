@@ -1,0 +1,73 @@
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .article-date {
+  float: right;
+  margin-left: 10px;
+  padding: 1em;
+  font-weight: bold;
+  text-align: right;
+  }
+
+  .image-left {
+    float: left;
+    margin-right: 20px; 
+    margin-left: -60px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  .image-caption{
+    background: linear-gradient(90deg,rgb(219, 176, 95), rgb(206, 200, 200));
+    font-style: italic;
+  }
+  
+  .quote {
+    font-size: 160%;
+    font-style: italic;
+    text-align: left;
+    width: 200px;
+    padding: 1em;
+    background: linear-gradient(0deg,rgb(219, 176, 95), rgb(206, 200, 200));
+    }
+  .quote-right {
+
+    float: right;
+    margin-right: -60px; 
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 00px;
+    }
+
+    .quote-right:before {
+      content: open-quote;
+      font-size: 300%;
+      float: left;
+      width: 25%;
+      margin-bottom: 20px;
+    }
+    .quote-left {
+
+      float: left;
+      margin-right: 20px; 
+      margin-left: -60px;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      }
+
+    .quote-left:after {
+      content: close-quote;
+      font-size: 300%;
+      float: right;
+      width: 25%;
+      margin-bottom: -40px;
+    }
