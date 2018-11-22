@@ -49,11 +49,15 @@ body {
     }
 
     .quote-right:before {
+      font-family: 'Engravers MT';
+      margin-left: -40px;
+      margin-top: -20px;
+      margin-bottom: 80px;
       content: open-quote;
       font-size: 300%;
       float: left;
-      width: 25%;
-      margin-bottom: 20px;
+      width: 30%;
+      
     }
     .quote-left {
 
@@ -65,9 +69,12 @@ body {
       }
 
     .quote-left:after {
+      font-family: 'Engravers MT';
       content: close-quote;
       font-size: 300%;
       float: right;
       width: 25%;
       margin-bottom: -40px;
+      margin-left: -40px;
+      margin-top: -20px;
     }
